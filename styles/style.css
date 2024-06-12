@@ -20,6 +20,13 @@
 .cartelIntervencion{
     width: 33rem;
 }
+.curiosidadesImagenes{
+    width: 20rem;
+    height: 12rem;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 5px;
+}
 /*mediaqueries*/
 @media(max-width:900px) {
     .imagencast{
@@ -29,6 +36,10 @@
     .cartelIntervencion{
         width: 18rem;
     }
+    .youtube{
+        width: 20rem;
+        height: 15rem;
+}
 }
 @media( max-width:500px){
     .cartelIntervencion{
@@ -37,6 +48,14 @@
     .imagencast{
         width: 22rem;
         height: 15rem;
+    }
+    .youtube{
+        width: 20rem;
+        height: 15rem;
+    }
+    .imagenBiografia{
+        width: 20rem;
+        height: 22rem;
     }
 }
 /*colores de la pagina*/
@@ -63,6 +82,7 @@ nav{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 10px;
 }
 h1{
     font-family: "roboto", sans-serif;
@@ -79,6 +99,7 @@ h2{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .flexSitiosWeb{
     display: flex;
@@ -86,4 +107,20 @@ h2{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+}
+.curiosidades{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 50px;
+}
+footer{
+    margin-top: 20px;
+    bottom: 0%;
+}
+.imagenBiografia{
+    margin-top: 2rem;
 }
