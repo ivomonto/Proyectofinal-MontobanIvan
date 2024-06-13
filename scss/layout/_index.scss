@@ -1,0 +1,15 @@
+.imagencast{
+    @include tamaño(80rem,30rem);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+@media(max-width:900px) {
+    .imagencast{
+        @include tamaño(30rem,20rem)
+    }
+}
+@media( max-width:500px){
+    .imagencast{
+        @include tamaño(18rem,15rem)
+    }
+}

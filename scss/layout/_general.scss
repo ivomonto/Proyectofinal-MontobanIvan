@@ -1,0 +1,57 @@
+header{
+    .headerColor{
+        background-color: $colorPrincipal;
+    }
+    nav{
+        font-family: $fuenteSitio,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-bottom: 10px;
+    }
+    .dropdown{
+        background-color: $colorPrincipal !important;
+    }
+    .imagenlogo{
+        @include tamaño(10rem,5rem);
+        border-radius: 10px;
+    }
+}
+h1{
+    font-family: $fuenteSitio,sans-serif;
+    color:$colorh1 !important;
+    font-weight: 800;
+}
+h2{
+    font-family: $fuenteSitio,sans-serif;
+    color: $colorh2 !important;
+}
+p{
+    font-family: $fuenteSitio,sans-serif;
+    color: $colortextos;
+}
+
+.imagenbiografia{
+    margin-top: 2rem;
+}
+footer{
+    background: rgb(28,24,24);
+    background: linear-gradient(90deg, rgba(28,24,24,1) 10%, rgba(64,64,64,1) 40%, rgba(64,64,64,1) 60%, rgba(28,24,24,1) 90%);
+    margin-top: 20px;
+    border-radius: 10px;
+    bottom: 0%;
+
+}
+@media( max-width:500px){
+    .cartelIntervencion{
+        width: 12rem;
+    }
+    .imagencast{
+        @include tamaño(20rem, 15rem)
+    }
+    .youtube{
+        @include tamaño(20rem, 15rem)
+    }
+    .imagenBiografia{
+        @include tamaño(20rem,22rem)
+    }
+}

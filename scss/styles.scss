@@ -1,0 +1,13 @@
+@import "./variables";
+@import "layout/general";
+@import "layout/index";
+@import "layout/mejoresmomentos";
+@import "layout/curiosidades";
+@import "layout/contacto";
+
+body{
+    background-image: url(../assets/Fondo_8.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

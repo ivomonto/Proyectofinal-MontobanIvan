@@ -1,0 +1,12 @@
+$fuenteSitio:"roboto";
+$colortextos:#f4f4f6;
+$colorPrincipal:#F2F2EB;
+$colorSecundario:#404040;
+$colorh1:#F7CC2D;
+$colorh2: #F7EA68;
+
+//mixin
+@mixin tamaño($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}

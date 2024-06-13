@@ -1,0 +1,16 @@
+.cartelIntervencion{
+    width: 33rem;
+}
+.boton{
+    margin-top: 10px;
+  }
+  @media(max-width:900px) {
+    .cartelIntervencion{
+        width: 18rem;
+    }
+}
+  @media( max-width:500px){
+    .cartelIntervencion{
+        width: 12rem;
+    }
+}
